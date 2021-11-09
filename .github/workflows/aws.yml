@@ -14,5 +14,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           Script: |
-            cd /home/node/adminpanal/
+            cd /var/www/html/demo/
             git pull origin main
